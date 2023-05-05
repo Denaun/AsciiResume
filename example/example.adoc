@@ -1,0 +1,118 @@
+= John *Doe*
+:outline-title: Resume
+:url-repo: https://github.com/Denaun/AsciiResume
+
+[cols="<,>"]
+|===
+| john.doe@example.com
+| {url-repo}[AsciiResume]
+
+|===
+
+'''
+
+== Summary
+
+ifdef::display-picture[]
+image::Lenna.png[pdfwidth=1.55in,float=right]
+endif::[]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
+
+*Key skills:* Lorem Ipsum, Dolor Sit Amet.
+
+== Professional Experience
+
+// Adds an entry in the outline.
+[%notitle]
+=== First Job
+
+[cols="<,>"]
+|===
+| Job Title | 
+
+s| Company (City)
+| 01/1970 - present
+|===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua.
+
+* Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
+
+* Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur.
+
+* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum.
+
+[%notitle]
+=== Second Job
+
+[cols="<,>"]
+|===
+| Job Title | 
+
+s| Company (City)
+| 01/{docyear} - 02/{docyear}
+|===
+
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua.
+
+== Education
+
+[cols="<,>"]
+|===
+| Master in Lorem Ipsum |
+
+| University (City)
+| 
+ifndef::hide-old-dates[01/1970 - 01/2000]
+|===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua.
+
+* Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
+
+* Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur.
+
+== Languages
+
+[cols="<s,>"]
+|===
+| English
+| Native language
+
+| Latin
+| Elementary proficiency
+|===
+
+== Technologies
+
+[cols="<s,>"]
+|===
+| AsciiDoc, Docker
+| Personal interest
+
+|===
+
+== Extra long section 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut velit in est semper dignissim. Quisque turpis lorem, dignissim nec luctus mattis, tincidunt ut massa. Donec sit amet malesuada ligula. Quisque mattis feugiat tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ut orci quis nunc malesuada tempus nec sit amet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In consectetur imperdiet libero rhoncus tristique. Pellentesque ac dictum nisl. Quisque ultrices quis lectus luctus fermentum. Donec sit amet aliquet velit, ut vehicula enim.
+
+Etiam in fringilla odio, sed imperdiet purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et maximus justo. Nullam tempus tempus pharetra. Nunc eleifend turpis at ipsum molestie pharetra. Integer elementum lectus viverra justo placerat molestie. Nam tempor felis et est lobortis laoreet. Fusce sodales dui id dolor sagittis maximus. Sed finibus dolor ut elit iaculis, in pretium enim hendrerit. Cras aliquet vulputate eros eget blandit. Nullam sit amet molestie ante, a ullamcorper quam. In euismod, urna ut dapibus vehicula, eros nibh ultricies turpis, et fringilla augue libero a augue.
+
+Aenean enim mauris, pharetra id cursus sit amet, blandit in tellus. Nulla viverra felis id ligula sagittis condimentum. Quisque vestibulum sapien at euismod tempus. Integer ex mauris, efficitur id sollicitudin in, imperdiet sed magna. Proin interdum imperdiet ipsum sed pharetra. Nunc sit amet ex consectetur, consectetur turpis tempor, pulvinar purus. Phasellus tellus nulla, tincidunt nec nibh et, tristique congue diam. Vestibulum a tellus augue. Morbi lectus mauris, vehicula at lobortis eu, porta in leo. Sed finibus sollicitudin eros sit amet porta. Suspendisse non lacus sem.
+
+Donec volutpat nisi sed sem laoreet, eget gravida nisi luctus. Donec non nisi vel lorem convallis elementum in ornare sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean at nisi a orci ultrices semper. Praesent varius dignissim tellus, et luctus ipsum laoreet sit amet. Quisque a felis tortor. Praesent hendrerit nisl mi, et auctor lectus fermentum ac. Donec luctus velit hendrerit, dictum neque sed, mollis lorem. Nunc luctus tempus urna, ac iaculis velit efficitur id. Mauris sit amet turpis ac dolor luctus posuere. Cras eget lectus iaculis, consectetur est nec, ultricies neque. Nam nec facilisis est. Sed ullamcorper lorem sapien, in tempor libero porta et. Cras vel enim vestibulum, faucibus eros vitae, faucibus sem. Integer imperdiet suscipit gravida.
+
+Aenean quis diam at mi porta iaculis quis non justo. Phasellus nulla ante, ornare at rhoncus vel, maximus ut sapien. Donec maximus lobortis neque, id molestie est sodales id. Proin eu dignissim tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet gravida est. Suspendisse augue dui, feugiat a felis nec, posuere varius massa. Duis a purus rhoncus, fermentum urna non, pellentesque nunc. Integer blandit mauris vitae varius condimentum. Duis euismod auctor ligula, in auctor nisi accumsan nec. Pellentesque blandit volutpat imperdiet. Quisque et convallis eros, quis consequat lacus. Aenean a leo sit amet tortor finibus consequat. 

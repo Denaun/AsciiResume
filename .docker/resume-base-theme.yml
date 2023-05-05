@@ -1,0 +1,50 @@
+extends: default-sans
+
+page:
+  margin: 0.4in
+prose:
+  margin-bottom: 4
+list:
+  item-spacing: 2
+block:
+  margin-bottom: 2
+
+running-content:
+  start-at: 2
+header:
+  height: 0.5in
+  font-size: 9
+  recto: &shared_header
+    left:
+      content: '{doctitle}'
+    right:
+      content: 'Last updated on {docdate}'
+  verso: *shared_header
+footer:
+  height: 0
+
+heading:
+  margin:
+    top: 5
+    bottom: 0
+heading-h1:
+  font:
+    size: 35
+    style: normal
+heading-h2:
+  font-size: 16
+
+link:
+  font-color: ~
+  text-decoration: underline
+
+table:
+  border-width: 0
+  grid-width: ~
+  head:
+    border-bottom-width: 0
+  cell:
+    padding: 0
+
+thematic-break:
+  padding: [2, -0.4in, 0, -0.4in]

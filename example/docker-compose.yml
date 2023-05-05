@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  example:
+    image: docker.io/denaun/ascii_resume:latest
+    container_name: example
+    volumes:
+      - .:/resume
+    environment:
+      - SOURCE=example.adoc
+  example-with-picture:
+    image: docker.io/denaun/ascii_resume:latest
+    container_name: example-with-picture
+    volumes:
+      - .:/resume
+    environment:
+      - SOURCE=example.adoc
+    command: --theme /resume-base-theme.yml -a display-picture -o example-with-picture.pdf
